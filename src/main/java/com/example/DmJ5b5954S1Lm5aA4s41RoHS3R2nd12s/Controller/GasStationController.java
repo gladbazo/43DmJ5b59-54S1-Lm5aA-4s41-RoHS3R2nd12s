@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.math.BigDecimal;
+import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
@@ -55,6 +56,7 @@ public class GasStationController {
 
 
     static BigDecimal calculateMedian(List<BigDecimal> prices) {
+        Collections.sort(prices);
         int size = prices.size();
         if (size % 2 == 0) {
             int midIndex = size / 2;

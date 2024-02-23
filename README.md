@@ -5,7 +5,7 @@ Use Application.java to start it.
 Once the service is running, you can access it using the following endpoints:
 
 - **Open Gas Stations**: `http://localhost:8080/gas-stations/open`
-- **Gas Station by Name**: `http://localhost:8080/gas-stations/{name}`
-- **Fuel Price Statistics**: `http://localhost:8080/gas-stations/prices/{fuelType}`
+- **Gas Station by Name**: `http://localhost:8080/gas-stations/{name}` (example: http://localhost:8080/gas-stations/TotalEnergies%20Berlin )
+- **Fuel Price Statistics**: `http://localhost:8080/gas-stations/prices/{fuelType}` (example: http://localhost:8080/gas-stations/prices/e5 )
 
 Replace `{name}` and `{fuelType}` with the desired parameters.
